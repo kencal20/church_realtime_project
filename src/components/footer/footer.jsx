@@ -15,7 +15,7 @@ export default function Footer() {
               <p><i>Email</i></p>
               <p><i>Phone</i></p>
               <p><i>Whatsapp</i></p>
-              <p><i>location</i></p>
+              <a href="https://goo.gl/maps/Ti63XJ9B9iuo7wnM8"><i>location</i></a>
             </Col>{" "}
             <Col>
               <h5><b>DEPARTMENTS</b></h5>
