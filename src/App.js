@@ -4,6 +4,7 @@ import NavBar from "./components/navbar/navbar";
 import UncontrolledExample from "./components/carousel/carousel";
 import Randomtext from "./components/Randomtext";
 import Footer from "./components/footer/footer";
+import Map from "./components/map";
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,8 @@ function App() {
           <NavBar />
           <UncontrolledExample />
           <Randomtext />
-          <Randomtext />
+          <Map/>
+          {/* <Randomtext /> */}
           <Footer />
           {/* <Forms /> */}
           {/* <SplitScreen /> */}
