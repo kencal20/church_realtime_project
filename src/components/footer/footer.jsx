@@ -1,7 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import "./footer.css";
-import logo4 from "../img/logo6.avif";
+
+import { MdCall, MdMail, MdWhatsapp, MdLocationPin } from "react-icons/md";
 export default function Footer() {
   const Year = new Date().getFullYear();
 
@@ -15,16 +16,20 @@ export default function Footer() {
                 <b>CONTACT US</b>{" "}
               </h5>
               <p>
-                <i>Email</i>
+                <MdMail />
+                <i> Email</i>
               </p>
               <p>
-                <i>Phone</i>
+                <MdCall />
+                <i> Phone</i>
               </p>
               <p>
-                <i>Whatsapp</i>
+                <MdWhatsapp />
+                <i> Whatsapp</i>
               </p>
+                  <MdLocationPin />
               <a href="https://goo.gl/maps/Ti63XJ9B9iuo7wnM8">
-                <i>location</i>
+                <i>  location</i>
               </a>
             </Col>{" "}
             <Col>
@@ -57,7 +62,7 @@ export default function Footer() {
               <p>
                 <i>Account Number</i>
               </p>
-              <p>All rights  reserved,&copy; {Year}</p>
+              <p>All rights reserved,&copy; {Year}</p>
             </Col>{" "}
           </Row>
         </div>{" "}
