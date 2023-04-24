@@ -7,7 +7,7 @@ import {
   NavDropdown,
   Nav,
 } from "react-bootstrap";
-import logo from "../../img/logo.png";
+import logo from "../img/logo.png";
 import "./navbar.css";
 
 export default function NavBar() {
@@ -22,15 +22,16 @@ export default function NavBar() {
               height="100"
               className="d-inline-block align-top Nav_logo"
               alt="adventist logo"
-            />
+            />{" "}
+            <h4 id="nav_head">
+              SDA CHURCH
+              <br />
+              PROMISED LAND
+              <br />
+              TSE-ADDO
+            </h4>
           </Navbar.Brand>
-          <h4 id="nav_head">
-            SDA CHURCH
-            <br />
-            PROMISED LAND
-            <br />
-            TSE-ADDO
-          </h4>
+
           <div className="navbar_txt">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

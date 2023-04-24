@@ -1,10 +1,11 @@
+
 .Nav_logo{
 border-radius: 60px;
+border-width: 0px;
 }
 #nav_head{
     position:relative;
-    left:-190px;
+
 }
-#nav_bar{
-  
-}
+
+
