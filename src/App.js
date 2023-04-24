@@ -1,17 +1,22 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./components/navbar/navbar";
-import Firstcarousel from "./components/carousel/carousel";
+import UncontrolledExample from "./components/carousel/carousel";
+import Randomtext from "./components/Randomtext";
+import Footer from "./components/footer/footer";
 function App() {
   return (
     <div className="App">
       {
-        <veiw>
+        <>
           <NavBar />
-          <Firstcarousel />
-          {/* <SplitScreen /> */}
+          <UncontrolledExample />
+          <Randomtext />
+          <Randomtext />
+          <Footer />
           {/* <Forms /> */}
-        </veiw>
+          {/* <SplitScreen /> */}
+        </>
       }
     </div>
   );
