@@ -5,7 +5,8 @@ import UncontrolledExample from "./components/carousel/carousel";
 import Randomtext from "./components/Randomtext";
 import Footer from "./components/footer/footer";
 import Map from "./components/map";
-export default       function App() {
+
+export default function App() {
   return (
     <div className="App">
       {
@@ -13,15 +14,13 @@ export default       function App() {
           <NavBar />
           <UncontrolledExample />
           <Randomtext />
-          <Map/>
+          <Map />
           {/* <Randomtext /> */}
+          {/* <Forms />  */}
           <Footer />
-          {/* <Forms /> */}
           {/* <SplitScreen /> */}
         </>
       }
     </div>
   );
 }
-
-
