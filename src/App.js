@@ -5,7 +5,7 @@ import UncontrolledExample from "./components/carousel/carousel";
 import Randomtext from "./components/Randomtext";
 import Footer from "./components/footer/footer";
 import Map from "./components/map";
-function App() {
+export default       function App() {
   return (
     <div className="App">
       {
@@ -24,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+
