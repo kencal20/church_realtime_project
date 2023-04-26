@@ -14,7 +14,7 @@ export default function App() {
           <NavBar />
           <UncontrolledExample />
           <Randomtext />
-          {/* <Map /> */}
+          <Map />
           {/* <Randomtext /> */}
           {/* <Forms />  */}
           <Footer />
