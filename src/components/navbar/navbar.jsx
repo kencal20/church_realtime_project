@@ -1,8 +1,6 @@
 import React from "react";
 import {
   Navbar,
-  Form,
-  Button,
   Container,
   NavDropdown,
   Nav,
@@ -59,16 +57,6 @@ export default function NavBar() {
                 {/* <Nav.Item className="mr-auto">
                   <Nav.Link className="mr-auto">Hi fname lname!</Nav.Link>
                 </Nav.Item> */}
-
-                <Form className="d-flex">
-                  <Form.Control
-                    type="search"
-                    placeholder="Search"
-                    className="me-2"
-                    aria-label="Search"
-                  />
-                  <Button variant="outline-success">Search</Button>
-                </Form>
               </Nav>
             </Navbar.Collapse>{" "}
           </div>
